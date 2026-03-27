@@ -34,3 +34,11 @@ Clona questo repository sul tuo computer.
 Comando atteso:
 ```bash
 git clone <URL_DEL_REPOSITORY>
+
+
+### 2. Crea il tuo branch personale
+
+Dopo essere entrato nel repository, crea un branch con questo nome:
+
+```text
+nome-cognome
