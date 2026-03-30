@@ -51,14 +51,8 @@ git checkout -b mario-rossi
 ### 3. Crea la tua cartella personale
 
 All'interno del repository, crea una nuova cartella usando il tuo nome e cognome (tutto minuscolo e separato da un trattino).
-Subito dopo, entra in questa cartella.
+Subito dopo, **entra in questa cartella.**
 
-Comandi attesi (esempio):
-
-```bash
-mkdir mario-rossi
-cd mario-rossi
-```
 
 Ora la tua area di lavoro dovrebbe presentarsi in questo modo:
 
@@ -128,9 +122,6 @@ I comandi necessari saranno quindi:
 - Eseguire il container e salvare l'output (**run**)
 
     ⚠️ Attenzione: non limitarti a stampare a video, ma usa l'operatore di reindirizzamento (**>**) per salvare l'output del container in un file chiamato esattamente **risultato.txt**.
-    ```bash
-    docker run nome-della-tua-immagine > risultato.txt
-    ```
 
 
 ### 7. *Esegui lo script shell per test (opzionale)*
@@ -164,6 +155,8 @@ Quando hai terminato il lavoro, salva le modifiche e inviale sul repository remo
 
     Suggerimento: 
     ```bash
+    cd ..
+    
     git push -u origin nome-cognome
     ```
     per rimanere sul branch personale!
