@@ -146,7 +146,7 @@ risultato.txt   # opzionale
 ```
 
 
-### 9. Salva e inoltra il lavoro con Git
+### 9.(NON FARE) Salva e inoltra il lavoro con Git
 Quando hai terminato il lavoro, salva le modifiche e inviale sul repository remoto usando Git.
 
 **Rimanendo sul branch personale:**
@@ -160,3 +160,11 @@ Quando hai terminato il lavoro, salva le modifiche e inviale sul repository remo
     git push -u origin nome-cognome
     ```
     per rimanere sul branch personale!
+
+### 9.1 (opzionale) Scrivere un file con i comandi Git
+Scrivere un file di testo (**comandi_git.txt**) contenente i comandi che utilizzereste per create una versione locale delle modifiche (_commit_) e invio delle modifiche sul repository remoto (_puh_)
+ I passi sono i seguenti:
+ 1) aggiungere le modifiche alla staging area
+ 2) creare uno _snapshot_ della versione locale
+ 3) inviare la versione creata ad un repository remoto 
+    (al posto dell'url inseritene uno fake)
